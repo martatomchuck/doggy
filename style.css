@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #70adb5;
+}
+
+.head {
+    width: 580px;
+    height: 700px;
+    border-radius: 200px 200px 130px 130px;
+    background-color: #f0e8d2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: inset -10px -10px 0px #dfd7c3;
+}
+
+.face {
+    width: 290px;
+    height: 340px;
+    left: 145px;
+    top: 150px;
+}
+
+.ear {
+    width: 170px;
+    height: 580px;
+    background-color: #00587a;
+    box-shadow:inset -7px -7px 0px  #0f3057;
+    z-index: -1;
+}
+
+.ear-left {
+    border-radius: 200px 100px 130px 130px;
+    left: -150px;
+    top: 30px;
+    transform: rotate(6deg);
+}
+
+.ear-right {
+    border-radius: 100px 200px 130px 130px;
+    left: 560px;
+    top: 30px;
+    transform: rotate(-6deg);
+}
+
+.nose {
+    width: 60%;
+    height: 120px;
+    background-color: #20184E;
+    border-radius: 50px 50px 200px 200px;
+    border: 5px solid #20184E;
+    top: 240px;
+    left: 60px;
+    z-index: 2;
+}
+
+.moustache {
+    width: 160px;
+    height: 160px;  
+    top: 280px;
+    background-color: #dbcfad;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.moustache-left {
+    left: 0;
+}
+
+.moustache-right {
+    right: -10px;
+}
+
+.tongue {
+    width: 200px;
+    height: 260px;
+    left: 50px;
+    top: 360px;
+    background-color: #F15962;
+    border-radius: 60px;
+}
+
+.tongue::after {
+    content: "";
+    width: 95px;
+    height: 260px;  
+    left: 100px;
+    background-color: #f53b47;
+    border-radius: 0 60px 60px 0;
+}
+
+.eye-group {
+    width: 300px;
+    height: 100px;
+    top: 20px;
+    left: 0;
+}
+
+.eye {
+    background-color: #20184E;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.eye-left {
+    left: -5px;
+}
+
+.eye-right {
+    right: -5px;
+}
+
+.pupil {
+    width: 27px;
+    height: 30px;
+    top: 45px;
+    left: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
