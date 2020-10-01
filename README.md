@@ -4,4 +4,4 @@ Kod powstał na potrzeby przeprowadzenia lekcji online i udziału w konkursie "E
 
 Podgląd projektu: https://martatomchuck.github.io/doggy/
 
-![doggy](/doggy.png)
+![doggy](DOGGY.png)
