@@ -5,4 +5,5 @@ Oto co można zmalować przy pomocy prostego kodu - kawałka HTMLa i czystego CS
 ![doggy](DOGGY.png)
 
 Kod powstał na potrzeby przeprowadzenia warsztatów online dla dzieci i młodzieży.
+
 Podgląd projektu: https://martatomchuck.github.io/doggy/
